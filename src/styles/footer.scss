@@ -1,0 +1,29 @@
+
+footer{
+    margin-top: 6em;
+    margin-bottom: 2em;
+ 
+    font-size: 13px;
+
+}
+footer .foter{
+    
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  justify-content: space-around;
+}
+.list_foter{
+    list-style: none;
+    
+}
+.list_item_foter{
+    padding-bottom: 1em;
+}
+.list_item_foter a{
+    text-decoration: none;
+    color: $corListItem; 
+}
+.list_item_foter a:hover{
+    color: $corLinkHover;
+}

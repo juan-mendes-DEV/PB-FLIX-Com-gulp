@@ -2,46 +2,13 @@
 @import 'reset';
 @import '_menu';
 @import 'hero';
+
 @import 'footer';
 @import 'swipper';
 @import 'bootstrap';
 
-body{
-    background-color: $corFundo;
-}
-.title{
-    font-size: 1rem;
-    color: $corLinkHover;
-    padding-top: 0.5em;
-    padding-left: 3.5em;
-}
-.title_one{
-    font-size: 1rem;
-    color: $corLinkHover;
-    margin-top: -1.7em;
-    padding-left: 3.5em;
-}
-.user{
-    width: 50px;
-    border-radius: 50%;
-}
-.logo_social{
-    width: 30px;
-}
-
-.bartt{
-    width: 40px;
-    margin-right: 10px ;
-}
-.divisao{
-    width: 100%;
-    max-width: 100% ;
-    margin: 0;
-    padding: 0; 
-}
-  //! Estilos para celulares 
-  @media only screen and (max-width: 770px) {
-
+@media only screen and (max-width: 770px) {
+    /* Adicione seus estilos aqui */
     .capa_fundo{
         background-position: center;
         width: 100%;
@@ -55,7 +22,6 @@ body{
     }
     
     .botoes{
-        
         padding-top: 6em;
         border: none;
         display: flex;

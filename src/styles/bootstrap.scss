@@ -1,0 +1,31 @@
+
+
+.offcanvas{
+    background-color: $corFundoBtn;
+    color: $corLinkHover;
+}
+#offcanvasWithBothOptions{
+    width: 250px;
+}
+#botaoHamburguer{
+    display: none;
+}
+.logo_two{
+    display: none;
+}
+
+.divisao{
+    width: 100%;
+    max-width: 100% ;
+    margin: 0;
+    padding: 0; 
+}
+.item_ofcanvas{
+    font-size: 15px;
+    margin-bottom: 12px;
+    padding-top: 0px;
+}
+.offcanvas-title{
+    color: $corLogo;
+    font-weight: bold;
+}

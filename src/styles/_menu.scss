@@ -1,0 +1,44 @@
+.menu{
+    background-image: $corFundoMenu;
+    width:100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top:10px;
+    margin-bottom: -10px;
+    z-index: 3;
+    position: fixed;
+        
+            .navigation{
+                display: flex;
+                justify-content: space-between;
+           
+            .list_links{
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                
+                .list_item{
+                    margin-right: 1.5em;
+                
+                }
+                .list_item a{
+                    text-decoration: none;
+                    color: $corLink; 
+                }
+                .list_item a:hover{
+                    color: corLinkHover;
+                }
+                .logo{
+                    text-align: center;
+                    margin-right: 0.6em;
+                    font-size: 2em;
+                    font-weight: bold;
+                }
+                .logo a{
+                    color: $corLogo;
+                
+                }
+            }
+        }
+}

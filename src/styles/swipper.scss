@@ -1,0 +1,46 @@
+
+.swiper{
+    width: 100%;
+    max-width: 100%;
+        .swiper-wrapper{
+            margin-left: 100px;
+            
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin:-50px;
+                height: 350px;
+                position: relative;
+                
+                .imgs{
+                    position: relative;
+                    display: inline-block;
+                    overflow: hidden;
+                    transition: transform 0.3s ease-in-out;
+                    padding: 1px;
+                }
+                .imgs:hover{
+                    padding: -10px;
+                    z-index: 5;
+                    transform: scale(1.2);
+                }
+            
+            }
+        }
+
+.swiper-button-next,.swiper-button-prev{
+    color: $corLogo
+}
+    
+}
+    
+.swiper-slide img {
+    display: block;
+    width: 200px;
+    height: 170px;
+    object-fit: cover;
+    
+}
